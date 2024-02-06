@@ -4,19 +4,19 @@ const computerScoreSpan = document.querySelector('[data-computer-score]')
 const yourScoreSpan = document.querySelector('[data-your-score]')
 const SELECTIONS = [
   {
-    name: 'rock',
+    name: 'Rock',
     emoji: '✊',
-    beats: 'scissors'
+    beats: 'Scissors'
   },
   {
-    name: 'paper',
+    name: 'Paper',
     emoji: '✋',
-    beats: 'rock'
+    beats: 'Rock'
   },
   {
-    name: 'scissors',
+    name: 'Scissors',
     emoji: '✌',
-    beats: 'paper'
+    beats: 'Paper'
   }
 ]
 
